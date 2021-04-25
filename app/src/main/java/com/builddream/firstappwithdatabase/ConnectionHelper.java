@@ -12,12 +12,12 @@ public class ConnectionHelper {
     String uname,pass,ip,port,database;
     @SuppressLint("NewApi")
 
-    public Connection connection(){
-        ip = "192.168.1.12";
-        database ="CBI";
-        uname = "sa";
-        pass = "chand1997";
-        port="1433";
+    public Connection connection(){ //Replace #### with your configurations
+        ip = "####";
+        database ="####";
+        uname = "####";
+        pass = "####";
+        port="####";
 
         StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
